@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="lc-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9B6BFF"/>
+      <stop offset="0.55" stop-color="#7A3F9E"/>
+      <stop offset="1" stop-color="#C9456A"/>
+    </linearGradient>
+    <linearGradient id="lc-b1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8A5BD8"/>
+      <stop offset="1" stop-color="#4E2E7E"/>
+    </linearGradient>
+    <linearGradient id="lc-b2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B85A86"/>
+      <stop offset="1" stop-color="#6E2E52"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#lc-sky)"/>
+  <circle cx="300" cy="120" r="56" fill="#FFD23D" opacity="0.85"/>
+  <circle cx="300" cy="120" r="86" fill="#FFD23D" opacity="0.15"/>
+  <!-- back buildings -->
+  <g opacity="0.7">
+    <polygon points="40,400 40,230 120,205 120,400" fill="#5E3C8E"/>
+    <polygon points="120,400 120,205 130,205 130,400" fill="#3E2768"/>
+    <polygon points="470,400 470,215 560,195 560,400" fill="#5E3C8E"/>
+    <polygon points="560,400 560,195 568,195 568,400" fill="#3E2768"/>
+  </g>
+  <!-- front buildings (isometric tops) -->
+  <g>
+    <polygon points="150,400 150,250 230,225 230,400" fill="url(#lc-b1)"/>
+    <polygon points="230,400 230,225 258,235 258,400" fill="#3E2768"/>
+    <polygon points="150,250 230,225 258,235 178,260" fill="#A877E8"/>
+
+    <polygon points="270,400 270,180 350,155 350,400" fill="url(#lc-b2)"/>
+    <polygon points="350,400 350,155 380,165 380,400" fill="#4E1F3A"/>
+    <polygon points="270,180 350,155 380,165 300,190" fill="#D178A0"/>
+
+    <polygon points="392,400 392,275 452,255 452,400" fill="url(#lc-b1)"/>
+    <polygon points="452,400 452,255 478,263 478,400" fill="#3E2768"/>
+    <polygon points="392,275 452,255 478,263 418,283" fill="#A877E8"/>
+  </g>
+  <!-- windows -->
+  <g fill="#FFE7A3" opacity="0.85">
+    <rect x="166" y="270" width="10" height="14"/><rect x="186" y="266" width="10" height="14"/><rect x="206" y="262" width="10" height="14"/>
+    <rect x="166" y="300" width="10" height="14"/><rect x="186" y="296" width="10" height="14"/><rect x="206" y="292" width="10" height="14"/>
+    <rect x="288" y="205" width="11" height="16"/><rect x="312" y="200" width="11" height="16"/><rect x="336" y="195" width="11" height="16"/>
+    <rect x="288" y="240" width="11" height="16"/><rect x="312" y="235" width="11" height="16"/><rect x="336" y="230" width="11" height="16"/>
+    <rect x="288" y="275" width="11" height="16"/><rect x="312" y="270" width="11" height="16"/><rect x="336" y="265" width="11" height="16"/>
+    <rect x="406" y="295" width="9" height="13"/><rect x="424" y="291" width="9" height="13"/>
+    <rect x="406" y="320" width="9" height="13"/><rect x="424" y="316" width="9" height="13"/>
+  </g>
+</svg>

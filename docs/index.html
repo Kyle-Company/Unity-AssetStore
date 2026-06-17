@@ -108,16 +108,18 @@
   .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
   .shot{aspect-ratio:3/2;border-radius:14px;border:1px solid var(--line);overflow:hidden;position:relative;
     display:flex;align-items:flex-end;padding:16px;background:var(--panel)}
-  .shot::before{content:"";position:absolute;inset:0;opacity:.5;background:var(--bg)}
+  .shot::before{content:"";position:absolute;inset:0;background:var(--bg) center/cover no-repeat;
+    transition:transform .35s ease}
+  .shot:hover::before{transform:scale(1.05)}
   .shot::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(8,9,13,.85))}
   .shot span{position:relative;z-index:2;font-family:'Poppins';font-weight:600;font-size:.98rem}
   .shot small{position:relative;z-index:2;display:block;font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--muted);margin-top:2px}
-  .s1{--bg:linear-gradient(135deg,#FF5A5F,#FFA63D)}
-  .s2{--bg:linear-gradient(135deg,#3FD98A,#34B7FF)}
-  .s3{--bg:linear-gradient(135deg,#34B7FF,#9B6BFF)}
-  .s4{--bg:linear-gradient(135deg,#9B6BFF,#FF5A5F)}
-  .s5{--bg:linear-gradient(135deg,#FFD23D,#3FD98A)}
-  .s6{--bg:linear-gradient(135deg,#FFA63D,#34B7FF)}
+  .s1{--bg:url("packs/stylized-nature-kit.svg")}
+  .s2{--bg:url("packs/sci-fi-ui-pack.svg")}
+  .s3{--bg:url("packs/energy-vfx-vol-1.svg")}
+  .s4{--bg:url("packs/low-poly-city.svg")}
+  .s5{--bg:url("packs/fantasy-icon-set.svg")}
+  .s6{--bg:url("packs/magic-spell-fx.svg")}
 
   /* cta band */
   .ctaband{margin:74px 0 0;padding:56px 0;border-top:1px solid var(--line);text-align:center;position:relative;overflow:hidden}
@@ -247,7 +249,7 @@
     <div class="sec-head">
       <div class="eyebrow">// featured packs</div>
       <h2>A look at what's coming.</h2>
-      <p>Placeholder tiles for now — swap in your real pack thumbnails once they're live.</p>
+      <p>A preview of the packs we're polishing for release — more landing on the Asset Store soon.</p>
     </div>
     <div class="shots">
       <div class="shot s1"><div><span>Stylized Nature Kit</span><small>3d · environment</small></div></div>

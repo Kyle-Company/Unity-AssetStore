@@ -1,0 +1,455 @@
+{
+  "entries": [
+    {
+      "path": "Sprites/Buttons/button_normal.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Buttons/button_hover.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Buttons/button_pressed.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Buttons/button_disabled.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Panels/panel.png",
+      "border": [
+        48,
+        48,
+        48,
+        80
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Panels/tooltip.png",
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Bars/bar_bg.png",
+      "border": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Bars/bar_fill.png",
+      "border": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Inputs/input_field.png",
+      "border": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Inputs/checkbox_off.png",
+      "border": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Inputs/checkbox_on.png",
+      "border": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Inputs/toggle_track.png",
+      "border": [
+        28,
+        28,
+        28,
+        28
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Inputs/toggle_knob.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Sprites/Tabs/tab_active.png",
+      "border": [
+        36,
+        0,
+        36,
+        36
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Tabs/tab_inactive.png",
+      "border": [
+        36,
+        0,
+        36,
+        36
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Frames/divider.png",
+      "border": [
+        40,
+        0,
+        40,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Sprites/Misc/badge.png",
+      "border": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": true
+    },
+    {
+      "path": "Icons/play.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/pause.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/stop.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/settings.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/close.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/check.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/plus.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/minus.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/arrow_right.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/arrow_left.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/chevron_down.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/home.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/search.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/heart.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/shield.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/bolt.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/star.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/lock.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/bell.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/user.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/info.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/volume.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/trophy.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    },
+    {
+      "path": "Icons/map.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pixelsPerUnit": 100,
+      "ninePatch": false
+    }
+  ]
+}

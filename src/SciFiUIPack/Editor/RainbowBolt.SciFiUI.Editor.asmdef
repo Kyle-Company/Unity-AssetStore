@@ -1,0 +1,20 @@
+{
+    "name": "RainbowBolt.SciFiUI.Editor",
+    "rootNamespace": "RainbowBolt.SciFiUI.Editor",
+    "references": [
+        "RainbowBolt.SciFiUI",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "scifi-ui-pack-build",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Asset generator + rasterizer for Rainbow Bolt Studio — Sci-Fi UI Pack",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}
